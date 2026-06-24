@@ -18,14 +18,14 @@ The code in this project will reproduce the results in our paper, "INLRMF: A Glo
 ##  Usage
 You can reproduce the clustering analysis in two ways:
 
-- **PyCharm / Command line**: Run the sample script located in `INLRMF-code\example\example1.py` to obtain and view the clustering results.
-- **Jupyter Notebook**: Open and run `INLRMF-code\INLRMF_analysis.ipynb` for a step-by-step interactive pipeline with visualizations, parameter sensitivity analysis, and CSV export of all factor matrices (W1, W2, H, Z).
+- **PyCharm / Command line**: Run the sample script located in `INLRMF\example\example1.py` to obtain and view the clustering results.
+- **Jupyter Notebook**: Open and run `INLRMF\INLRMF_analysis.ipynb` for a step-by-step interactive pipeline with visualizations, parameter sensitivity analysis, and CSV export of all factor matrices (W1, W2, H, Z).
 
 ## Data
-The Input data is located at `INLRMF-code\test_data`. The `.csv` files are the input datasets of the INLRMF method.
+The Input data is located at `INLRMF\test_data`. The `.csv` files are the input datasets of the INLRMF method.
 
 ### Dropout Noise
-The script `INLRMF-code\example\Dropout noise.py` simulates dropout events common in scRNA-seq data by randomly setting a fraction (default 30%) of expression values to zero. It reads the original dataset and outputs a noisy version, which can be used to evaluate the robustness of INLRMF under realistic single-cell dropout conditions.
+The script `INLRMF\example\Dropout noise.py` simulates dropout events common in scRNA-seq data by randomly setting a fraction (default 30%) of expression values to zero. It reads the original dataset and outputs a noisy version, which can be used to evaluate the robustness of INLRMF under realistic single-cell dropout conditions.
 
 ## References
 <div id="svdinit">
