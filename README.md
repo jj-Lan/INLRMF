@@ -28,12 +28,12 @@ The Input data is located at `INLRMF-main\test_data`. The `.csv` files are the i
 The script `INLRMF-main\example\Dropout noise.py` simulates dropout events common in scRNA-seq data by randomly setting a fraction (default 30%) of expression values to zero. It reads the original dataset and outputs a noisy version, which can be used to evaluate the robustness of INLRMF under realistic single-cell dropout conditions.
 
 ## References
-<div id="svdinit">
+<span id="svdinit"></span>
+
 [1] Shiga M, Seno S, Onizuka M, et al. SC-JNMF: single-cell clustering integrating multiple quantification methods based on joint non-negative matrix factorization[J]. PeerJ, 2021, 9: e12087.
 
 [2] Zhang W, Xue X, Zheng X, et al. NMFLRR: clustering scRNA-seq data by integrating nonnegative matrix factorization with low rank representation[J]. IEEE Journal of Biomedical and Health Informatics, 2021, 26(3): 1394-1405.
 
-[3] Lee D D, Seung H S. Learning the parts of objects by non-negative matrix factorization[J]. nature, 1999, 401(6755): 788-791.
+[3] Lee D D, Seung H S. Learning the parts of objects by non-negative matrix factorization[J]. Nature, 1999, 401(6755): 788-791.
 
-[4] Boutsidis C, Gallopoulos E. SVD based initialization: A head start for nonnegative matrix factorization[J]. Pattern recognition, 2008, 41(4): 1350-1362.
-</div>
+[4] Boutsidis C, Gallopoulos E. SVD based initialization: A head start for nonnegative matrix factorization[J]. Pattern Recognition, 2008, 41(4): 1350-1362.
